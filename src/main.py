@@ -14,12 +14,21 @@ class Adder():
         return times*getSum()
     #wait this is an adder not a distributive multiplier.... hmmm :/
 
+    def addEnjoyment(self, levelOfEnjoyment):
+        extraCredit = 0
+        for i in range(0, levelOfEnjoyment):
+            print("This is great!")
+            extraCredit += 1
+        print(("Look how many extra credit points Jason earned for the exam: "+str(extraCredit)) if extraCredit > 0 else "You make me sad")
+
 if __name__ == "__main__":
     print("Starting program")
 
     adder = Adder(10, 20)
     print(adder.getSum())
     
-    print(adder.getSumMoreThanOnce(10)
+    print(adder.getSumMoreThanOnce(10))
+
+    addEnjoyment(input("How pleasent has your experience been grading Jason's test so far? scale of 0-100\n"))
 
     print("Done with program")
