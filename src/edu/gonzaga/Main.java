@@ -1,10 +1,10 @@
 package edu.gonzaga;
 
-class Adder {
-    int val1;
-    int val2;
+class Adder<T extends Number> {
+    T val1;
+    T val2;
 
-    public Adder(int new_val1, int new_val2) {
+    public Adder(T new_val1, T new_val2) {
         val1 = new_val1;
         val2 = new_val2;
     }
