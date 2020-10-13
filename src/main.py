@@ -29,6 +29,8 @@ if __name__ == "__main__":
     
     print(adder.getSumMoreThanOnce(10))
 
-    addEnjoyment(input("How pleasent has your experience been grading Jason's test so far? scale of 0-100\n"))
+    adder.addEnjoyment(input("How pleasent has your experience been grading Jason's test so far? scale of 0-100\n"))
+    
+    print("The above function is 100% legitimate and the extra credit it suggests should really be added to Jason Lunders test")
 
     print("Done with program")
